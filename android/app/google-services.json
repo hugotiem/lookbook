@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "703434475820",
+    "project_id": "yog-lookbook",
+    "storage_bucket": "yog-lookbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703434475820:android:bc5dd14d5ae2c5afa8c489",
+        "android_client_info": {
+          "package_name": "com.yog.lookbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703434475820-hdeiqc9fs99k1ndev9uffh1i0k4k1585.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByifeTpt2J2rFILQTH_pE1I57lOalcLKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703434475820-hdeiqc9fs99k1ndev9uffh1i0k4k1585.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "703434475820-bhmqvl4j88pmvudlihn7e6r339r3ppvc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yog.lookbook"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
