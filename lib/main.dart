@@ -1,6 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:lookbook/home/home.dart';
+
+import 'home/add.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Lookbook',
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
@@ -49,7 +52,7 @@ class _Home extends State<Home> {
   displayPage() {
     switch (currentTabIndex) {
       case 0:
-        return new Container();
+        return new HomePage();
 
       case 2:
         //return new ListViewTest();
@@ -78,7 +81,7 @@ class _Home extends State<Home> {
                   Navigator.of(context).push(
                     CupertinoPageRoute(
                       fullscreenDialog: true,
-                      builder: (context) => new Container(),//AddItem(),
+                      builder: (context) => AddItem(),
                     ),
                   );
                 },
