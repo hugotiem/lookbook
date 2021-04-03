@@ -14,3 +14,24 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Project Architecture
+
+<pre><code>
+lookbook
+├── android/ (android app builder)
+├── ios/ (ios app builder)
+├── lib/
+│    ├── home/
+│    │	   ├── add.dart (add page)
+│    │	   └── homePage.dart (home page)
+│    └── main.dart (main page to run the app)
+├── test/
+├── web/
+├── windows/	
+├── .gitignore
+├── .metadata	   	
+├── README.md	
+├── pubspec.lock	          
+└── pubspec.yaml
+</pre></code>
